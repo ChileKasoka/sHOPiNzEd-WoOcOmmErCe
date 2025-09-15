@@ -1,0 +1,319 @@
+[13-Aug-2025 08:51:27 UTC] Automatic updates starting...
+[13-Aug-2025 08:51:28 UTC]   Automatic plugin updates starting...
+[13-Aug-2025 08:51:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[13-Aug-2025 10:02:01 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[13-Aug-2025 10:02:01 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[13-Aug-2025 10:02:01 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[13-Aug-2025 10:02:01 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[13-Aug-2025 10:02:44 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[13-Aug-2025 10:02:44 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[13-Aug-2025 10:02:44 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[13-Aug-2025 10:02:44 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[13-Aug-2025 13:26:32 UTC] Automatic updates starting...
+[13-Aug-2025 13:26:34 UTC]   Automatic plugin updates starting...
+[13-Aug-2025 13:26:34 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[13-Aug-2025 19:28:25 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[13-Aug-2025 19:28:25 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[14-Aug-2025 08:10:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wpdb.php on line 1988
+[14-Aug-2025 08:20:25 UTC] Automatic updates starting...
+[14-Aug-2025 08:20:27 UTC]   Automatic plugin updates starting...
+[14-Aug-2025 08:20:27 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[14-Aug-2025 14:10:45 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[14-Aug-2025 14:10:45 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[14-Aug-2025 14:10:45 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[14-Aug-2025 14:10:56 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\elementor\includes\api.php on line 176
+[27-Aug-2025 14:19:52 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\elementor\includes\api.php on line 176
+[27-Aug-2025 14:20:03 UTC] Automatic updates starting...
+[27-Aug-2025 14:20:08 UTC]   Automatic plugin updates starting...
+[27-Aug-2025 14:20:08 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[27-Aug-2025 14:21:19 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[27-Aug-2025 14:21:35 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\update.php(1089): apply_filters('auto_update_plu...', true, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3061): wp_is_auto_update_forced_for_item('plugin', true, Object(stdClass))
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(1796): WP_Site_Health->detect_plugin_theme_auto_update_issues()
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(194): WP_Site_Health->get_test_plugin_theme_auto_updates()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3222): WP_Site_Health->perform_test(Array)
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): WP_Site_Health->wp_cron_scheduled_check()
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_site_health_...', Array)
+#10 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[28-Aug-2025 13:50:17 UTC] Automatic updates starting...
+[28-Aug-2025 13:50:19 UTC]   Automatic plugin updates starting...
+[28-Aug-2025 13:50:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[28-Aug-2025 14:00:42 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[28-Aug-2025 14:01:33 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[28-Aug-2025 14:10:06 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[11-Sep-2025 08:36:09 UTC] Automatic updates starting...
+[11-Sep-2025 08:36:10 UTC]   Automatic plugin updates starting...
+[11-Sep-2025 08:36:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[11-Sep-2025 08:52:36 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\update.php(1089): apply_filters('auto_update_plu...', true, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3061): wp_is_auto_update_forced_for_item('plugin', true, Object(stdClass))
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(1796): WP_Site_Health->detect_plugin_theme_auto_update_issues()
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(194): WP_Site_Health->get_test_plugin_theme_auto_updates()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3222): WP_Site_Health->perform_test(Array)
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): WP_Site_Health->wp_cron_scheduled_check()
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_site_health_...', Array)
+#10 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[11-Sep-2025 08:58:46 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[11-Sep-2025 08:59:29 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[11-Sep-2025 09:00:42 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[11-Sep-2025 09:03:23 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[11-Sep-2025 09:03:52 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[11-Sep-2025 09:04:19 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[12-Sep-2025 07:16:52 UTC] Automatic updates starting...
+[12-Sep-2025 07:16:53 UTC]   Automatic plugin updates starting...
+[12-Sep-2025 07:16:53 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[12-Sep-2025 12:06:14 UTC] Automatic updates starting...
+[12-Sep-2025 12:06:14 UTC]   Automatic plugin updates starting...
+[12-Sep-2025 12:06:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[12-Sep-2025 12:29:44 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[12-Sep-2025 12:56:51 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[12-Sep-2025 13:06:31 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[12-Sep-2025 13:06:40 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[12-Sep-2025 13:06:48 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[12-Sep-2025 13:07:31 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[12-Sep-2025 13:07:39 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[12-Sep-2025 13:07:47 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[12-Sep-2025 13:08:07 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964
+[14-Sep-2025 19:37:29 UTC] Automatic updates starting...
+[14-Sep-2025 19:37:30 UTC]   Automatic plugin updates starting...
+[14-Sep-2025 19:37:30 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[14-Sep-2025 19:46:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\update.php(1089): apply_filters('auto_update_plu...', true, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3061): wp_is_auto_update_forced_for_item('plugin', true, Object(stdClass))
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(1796): WP_Site_Health->detect_plugin_theme_auto_update_issues()
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(194): WP_Site_Health->get_test_plugin_theme_auto_updates()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3222): WP_Site_Health->perform_test(Array)
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): WP_Site_Health->wp_cron_scheduled_check()
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_site_health_...', Array)
+#10 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[14-Sep-2025 20:14:12 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[14-Sep-2025 20:47:43 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\admin-header.php on line 41
+[14-Sep-2025 20:49:40 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\admin-header.php on line 41
+[14-Sep-2025 21:02:20 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\admin-header.php on line 41
+[14-Sep-2025 21:11:55 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:11:55 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:19:42 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:19:42 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:21:08 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:21:08 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:22:33 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:22:33 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:22:41 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:22:41 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:23:24 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:23:24 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:23:46 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:23:46 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:37:00 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:37:00 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:37:20 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:37:20 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:41:12 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:41:12 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:44:02 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:44:02 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:44:21 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:44:21 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:44:40 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:44:40 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[14-Sep-2025 21:47:23 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[14-Sep-2025 21:47:23 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[15-Sep-2025 07:13:32 UTC] Automatic updates starting...
+[15-Sep-2025 07:13:33 UTC]   Automatic plugin updates starting...
+[15-Sep-2025 07:13:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[15-Sep-2025 12:20:00 UTC] Automatic updates starting...
+[15-Sep-2025 12:20:00 UTC]   Automatic plugin updates starting...
+[15-Sep-2025 12:20:00 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(268): apply_filters('auto_update_plu...', false, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(387): WP_Automatic_Updater->should_update('plugin', Object(stdClass), 'C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-automatic-updater.php(676): WP_Automatic_Updater->update('plugin', Object(stdClass))
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(861): WP_Automatic_Updater->run()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_maybe_auto_update('')
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\update.php(304): do_action('wp_maybe_auto_u...')
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): wp_version_check()
+#10 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#11 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#12 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#13 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[15-Sep-2025 12:20:12 UTC] PHP Deprecated:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\theme.php on line 1964

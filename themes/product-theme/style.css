@@ -1,0 +1,36 @@
+.woocommerce ul.products li.product {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.woocommerce ul.products li.product h2.woocommerce-loop-product__title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-shop-banner {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Custom Page Styles */
+body {
+  background-color: #f8f8f8;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  color: #222;
+  font-weight: bold;
+}
+
+a {
+  color: #0073aa;
+}
+
+a:hover {
+  color: #ff6600;
+}
