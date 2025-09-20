@@ -346,3 +346,71 @@ Stack trace:
 [15-Sep-2025 22:44:52 UTC]   Automatic theme updates starting...
 [15-Sep-2025 22:44:52 UTC]   Automatic theme updates complete.
 [15-Sep-2025 22:44:52 UTC] Automatic updates complete.
+[17-Sep-2025 14:25:21 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[17-Sep-2025 14:25:21 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[17-Sep-2025 15:07:35 UTC] PHP Notice:  Function wp_enqueue_script() was called <strong>incorrectly</strong>. "wp-editor" script should not be enqueued together with the new widgets editor (wp-edit-widgets or wp-customize-widgets). Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 5.8.0.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[18-Sep-2025 20:34:49 UTC] Automatic updates starting...
+[18-Sep-2025 20:34:51 UTC]   Automatic plugin updates starting...
+[18-Sep-2025 20:34:51 UTC]   Automatic plugin updates complete.
+[18-Sep-2025 20:34:52 UTC]   Automatic theme updates starting...
+[18-Sep-2025 20:34:52 UTC]   Automatic theme updates complete.
+[18-Sep-2025 20:34:52 UTC] Automatic updates complete.
+[19-Sep-2025 06:23:25 UTC] Automatic updates starting...
+[19-Sep-2025 06:23:26 UTC]   Automatic plugin updates starting...
+[19-Sep-2025 06:23:26 UTC]   Automatic plugin updates complete.
+[19-Sep-2025 06:23:28 UTC]   Automatic theme updates starting...
+[19-Sep-2025 06:23:28 UTC]   Automatic theme updates complete.
+[19-Sep-2025 06:23:28 UTC] Automatic updates complete.
+[19-Sep-2025 22:11:23 UTC] Automatic updates starting...
+[19-Sep-2025 22:11:24 UTC]   Automatic plugin updates starting...
+[19-Sep-2025 22:11:24 UTC]   Automatic plugin updates complete.
+[19-Sep-2025 22:11:25 UTC]   Automatic theme updates starting...
+[19-Sep-2025 22:11:25 UTC]   Automatic theme updates complete.
+[19-Sep-2025 22:11:25 UTC] Automatic updates complete.
+[19-Sep-2025 22:11:29 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[19-Sep-2025 22:11:29 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[19-Sep-2025 22:12:07 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[19-Sep-2025 22:12:07 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[19-Sep-2025 22:13:39 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[19-Sep-2025 22:13:39 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[19-Sep-2025 22:44:42 UTC] Automatic updates starting...
+[19-Sep-2025 22:44:42 UTC]   Automatic plugin updates starting...
+[19-Sep-2025 22:44:42 UTC]   Automatic plugin updates complete.
+[19-Sep-2025 22:44:42 UTC]   Automatic theme updates starting...
+[19-Sep-2025 22:44:42 UTC]   Automatic theme updates complete.
+[19-Sep-2025 22:44:42 UTC] Automatic updates complete.
+[19-Sep-2025 23:20:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[19-Sep-2025 23:50:06 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>gutentor</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[19-Sep-2025 23:50:06 UTC] PHP Notice:  Function _load_textdomain_just_in_time was called <strong>incorrectly</strong>. Translation loading for the <code>woocommerce</code> domain was triggered too early. This is usually an indicator for some code in the plugin or theme running too early. Translations should be loaded at the <code>init</code> action or later. Please see <a href="https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/">Debugging in WordPress</a> for more information. (This message was added in version 6.7.0.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[19-Sep-2025 23:52:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 272
+[19-Sep-2025 23:52:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 272
+[19-Sep-2025 23:52:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 272
+[19-Sep-2025 23:52:53 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 272
+[20-Sep-2025 12:28:01 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\update.php(1089): apply_filters('auto_update_plu...', true, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3061): wp_is_auto_update_forced_for_item('plugin', true, Object(stdClass))
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(1796): WP_Site_Health->detect_plugin_theme_auto_update_issues()
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(194): WP_Site_Health->get_test_plugin_theme_auto_updates()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3222): WP_Site_Health->perform_test(Array)
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): WP_Site_Health->wp_cron_scheduled_check()
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_site_health_...', Array)
+#10 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[20-Sep-2025 12:28:01 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[20-Sep-2025 12:28:01 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[20-Sep-2025 12:28:01 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[20-Sep-2025 12:28:02 UTC] Invalid url passed to get_utm_ready_link function
+[20-Sep-2025 12:28:02 UTC] Invalid url passed to get_utm_ready_link function
+[20-Sep-2025 12:28:02 UTC] Invalid url passed to get_utm_ready_link function
+[20-Sep-2025 12:29:15 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
