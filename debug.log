@@ -476,3 +476,18 @@ Stack trace:
 [20-Sep-2025 21:17:06 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 272
 [20-Sep-2025 21:17:06 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 272
 [20-Sep-2025 21:17:06 UTC] PHP Deprecated:  strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woolentor-addons\woolentor-blocks\includes\classes\Api\Api.php on line 272
+[20-Sep-2025 22:47:07 UTC] Automatic updates starting...
+[20-Sep-2025 22:47:08 UTC]   Automatic plugin updates starting...
+[20-Sep-2025 22:47:09 UTC]   Automatic plugin updates complete.
+[20-Sep-2025 22:47:09 UTC]   Automatic theme updates starting...
+[20-Sep-2025 22:47:09 UTC]   Automatic theme updates complete.
+[20-Sep-2025 22:47:09 UTC] Automatic updates complete.
+[21-Sep-2025 18:06:41 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[21-Sep-2025 18:06:41 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[21-Sep-2025 18:22:43 UTC] PHP Parse error:  syntax error, unexpected token "endif" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\partials\header\nav.php on line 224
+[21-Sep-2025 18:23:08 UTC] PHP Parse error:  syntax error, unexpected token "endif" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\partials\header\nav.php on line 224
+[21-Sep-2025 18:25:26 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "elseif" or "else" or "endif" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\partials\header\nav.php on line 187
+[21-Sep-2025 18:40:44 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[21-Sep-2025 18:40:44 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[21-Sep-2025 20:35:03 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[21-Sep-2025 20:35:03 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324

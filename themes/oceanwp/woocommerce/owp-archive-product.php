@@ -14,6 +14,30 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $product, $post;
 
+/**
+ * ✅ Custom Banner Per Category
+ */
+if ( is_product_category( 'batteries' ) ) {
+    echo '<div class="category-banner batteries-banner">
+            <h1>Batteries</h1>
+            <p>Power your home or business with reliable batteries.</p>
+          </div>';
+}
+
+if ( is_product_category( 'inverters' ) ) {
+    echo '<div class="category-banner inverters-banner">
+            <h1>Inverters</h1>
+            <p>Convert energy efficiently with our top inverters.</p>
+          </div>';
+}
+
+if ( is_product_category( 'solar' ) ) {
+    echo '<div class="category-banner solar-banner">
+            <h1>Solar Panels</h1>
+            <p>Go green with our high-performance solar panels.</p>
+          </div>';
+}
+
 // Get price and Add to Cart button conditional display state.
 $ocean_woo_cond = get_theme_mod( 'ocean_shop_conditional', false );
 
