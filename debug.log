@@ -491,3 +491,29 @@ Stack trace:
 [21-Sep-2025 18:40:44 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
 [21-Sep-2025 20:35:03 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
 [21-Sep-2025 20:35:03 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[21-Sep-2025 22:44:59 UTC] Automatic updates starting...
+[21-Sep-2025 22:45:01 UTC]   Automatic plugin updates starting...
+[21-Sep-2025 22:45:01 UTC]   Automatic plugin updates complete.
+[21-Sep-2025 22:45:02 UTC]   Automatic theme updates starting...
+[21-Sep-2025 22:45:02 UTC]   Automatic theme updates complete.
+[21-Sep-2025 22:45:02 UTC] Automatic updates complete.
+[21-Sep-2025 22:47:01 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[21-Sep-2025 22:47:01 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[21-Sep-2025 22:47:05 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[21-Sep-2025 22:47:05 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[21-Sep-2025 22:57:11 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[21-Sep-2025 22:57:11 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[21-Sep-2025 23:13:19 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[21-Sep-2025 23:13:19 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[21-Sep-2025 23:25:33 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 16384 bytes) in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 1160
+[21-Sep-2025 23:25:55 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 16384 bytes) in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\elementor\modules\image-loading-optimization\module.php on line 80
+[22-Sep-2025 07:46:14 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[22-Sep-2025 07:46:14 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[22-Sep-2025 08:21:56 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[22-Sep-2025 08:21:56 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[22-Sep-2025 14:20:57 UTC] Automatic updates starting...
+[22-Sep-2025 14:20:59 UTC]   Automatic plugin updates starting...
+[22-Sep-2025 14:20:59 UTC]   Automatic plugin updates complete.
+[22-Sep-2025 14:21:00 UTC]   Automatic theme updates starting...
+[22-Sep-2025 14:21:00 UTC]   Automatic theme updates complete.
+[22-Sep-2025 14:21:00 UTC] Automatic updates complete.
