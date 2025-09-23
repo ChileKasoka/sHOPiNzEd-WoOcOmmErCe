@@ -97,7 +97,6 @@ get_header( 'shop' );
     position: relative !important;
 }
 
-
 /* --- Product card --- */
 .shop-products ul.products li.product,
 .woocommerce ul.products li.product {
@@ -167,7 +166,6 @@ get_header( 'shop' );
 }
 
 /* --- Buttons container alignment: push CTA to bottom --- */
-/* Many themes put buttons inside anchors or wrapper elements — use general selectors */
 .shop-products ul.products li.product .button,
 .shop-products ul.products li.product a.button,
 .shop-products ul.products li.product .add_to_cart_button,
@@ -253,9 +251,33 @@ get_header( 'shop' );
 </style>
 
 <div class="custom-shop-banner">
-    <img src="<?php echo plugin_dir_url( __FILE__ ) . 'images/solar.avif'; ?>" alt="Shop Banner" />
-    <h2>Welcome to Our Store!</h2>
-    <p>Check out our latest deals below.</p>
+    <?php if ( is_product_category() ) : ?>
+        <?php
+        $category = get_queried_object();
+        $slug     = $category->slug;
+
+        // Default fallback image
+        $banner_img = 'http://shopinzed.local/wp-content/uploads/2025/09/solar.jpg';
+        $banner_heading = $category->name;
+        $banner_text    = $category->description ? $category->description : 'Browse our collection in this category.';
+
+        // Assign category-specific images
+        if ( $slug === 'batteries' ) {
+            $banner_img = 'http://shopinzed.local/wp-content/uploads/2025/09/batteries.jpg';
+        } elseif ( $slug === 'solar' ) {
+            $banner_img = 'http://shopinzed.local/wp-content/uploads/2025/08/nuno-marques-0GbrjL3vZF4-unsplash-scaled.jpg';
+        } elseif ( $slug === 'inverters' ) {
+            $banner_img = 'http://shopinzed.local/wp-content/uploads/2025/09/Inverter.jpg';
+        }
+        ?>
+        <img src="<?php echo esc_url( $banner_img ); ?>" alt="<?php echo esc_attr( $banner_heading ); ?>" />
+        <h2><?php echo esc_html( $banner_heading ); ?></h2>
+        <p><?php echo esc_html( $banner_text ); ?></p>
+    <?php else : ?>
+        <img src="http://shopinzed.local/wp-content/uploads/2025/09/solar.jpg" alt="Shop Banner" />
+        <h2>Welcome to Our Store!</h2>
+        <p>Check out our latest deals below.</p>
+    <?php endif; ?>
 </div>
 
 <div class="shop-content-wrapper">
