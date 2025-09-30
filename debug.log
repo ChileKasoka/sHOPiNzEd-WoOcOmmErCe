@@ -587,3 +587,63 @@ Stack trace:
 [23-Sep-2025 06:28:37 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
 [23-Sep-2025 06:28:37 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
 [23-Sep-2025 06:28:37 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[23-Sep-2025 18:32:41 UTC] Automatic updates starting...
+[23-Sep-2025 18:32:42 UTC]   Automatic plugin updates starting...
+[23-Sep-2025 18:32:42 UTC]   Automatic plugin updates complete.
+[23-Sep-2025 18:32:44 UTC]   Automatic theme updates starting...
+[23-Sep-2025 18:32:44 UTC]   Automatic theme updates complete.
+[23-Sep-2025 18:32:44 UTC] Automatic updates complete.
+[24-Sep-2025 11:29:01 UTC] Automatic updates starting...
+[24-Sep-2025 11:29:02 UTC]   Automatic plugin updates starting...
+[24-Sep-2025 11:29:02 UTC]   Automatic plugin updates complete.
+[24-Sep-2025 11:29:04 UTC]   Automatic theme updates starting...
+[24-Sep-2025 11:29:04 UTC]   Automatic theme updates complete.
+[24-Sep-2025 11:29:04 UTC] Automatic updates complete.
+[29-Sep-2025 20:05:42 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wpdb.php on line 1988
+[29-Sep-2025 20:07:55 UTC] Automatic updates starting...
+[29-Sep-2025 20:07:56 UTC]   Automatic plugin updates starting...
+[29-Sep-2025 20:07:56 UTC]   Automatic plugin updates complete.
+[29-Sep-2025 20:07:57 UTC]   Automatic theme updates starting...
+[29-Sep-2025 20:07:57 UTC]   Automatic theme updates complete.
+[29-Sep-2025 20:07:57 UTC] Automatic updates complete.
+[29-Sep-2025 20:08:18 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\update.php(1089): apply_filters('auto_update_plu...', true, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3061): wp_is_auto_update_forced_for_item('plugin', true, Object(stdClass))
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(1796): WP_Site_Health->detect_plugin_theme_auto_update_issues()
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(194): WP_Site_Health->get_test_plugin_theme_auto_updates()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3222): WP_Site_Health->perform_test(Array)
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): WP_Site_Health->wp_cron_scheduled_check()
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_site_health_...', Array)
+#10 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Sep-2025 20:19:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\update.php(1089): apply_filters('auto_update_plu...', true, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3061): wp_is_auto_update_forced_for_item('plugin', true, Object(stdClass))
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(1796): WP_Site_Health->detect_plugin_theme_auto_update_issues()
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(194): WP_Site_Health->get_test_plugin_theme_auto_updates()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3222): WP_Site_Health->perform_test(Array)
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): WP_Site_Health->wp_cron_scheduled_check()
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_site_health_...', Array)
+#10 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[29-Sep-2025 22:15:42 UTC] PHP Deprecated:  parse_str(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\shopengine\widgets\products.php on line 142
+[29-Sep-2025 22:45:17 UTC] Automatic updates starting...
+[29-Sep-2025 22:45:18 UTC]   Automatic plugin updates starting...
+[29-Sep-2025 22:45:18 UTC]   Automatic plugin updates complete.
+[29-Sep-2025 22:45:19 UTC]   Automatic theme updates starting...
+[29-Sep-2025 22:45:19 UTC]   Automatic theme updates complete.
+[29-Sep-2025 22:45:19 UTC] Automatic updates complete.
+[30-Sep-2025 10:43:59 UTC] Automatic updates starting...
+[30-Sep-2025 10:44:01 UTC]   Automatic plugin updates starting...
+[30-Sep-2025 10:44:01 UTC]   Automatic plugin updates complete.
+[30-Sep-2025 10:44:02 UTC]   Automatic theme updates starting...
+[30-Sep-2025 10:44:02 UTC]   Automatic theme updates complete.
+[30-Sep-2025 10:44:02 UTC] Automatic updates complete.
