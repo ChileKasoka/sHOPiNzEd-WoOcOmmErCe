@@ -18,6 +18,86 @@
  * @package OceanWP WordPress theme
  */
 
+// Custom Product Filter Shortcode
+function shopinzed_product_filter_section() {
+    ob_start(); ?>
+    
+    <div class="shopinzed-filter">
+        <h3>Filter by Appliance</h3>
+        <form id="product-filter-form">
+            <label><input type="checkbox" name="appliance[]" value="fan"> Fan</label><br>
+            <label><input type="checkbox" name="appliance[]" value="fridge"> Fridge</label><br>
+            <label><input type="checkbox" name="appliance[]" value="cooker"> Cooker</label><br>
+            <label><input type="checkbox" name="appliance[]" value="tv"> TV</label><br>
+            <button type="submit">Apply Filter</button>
+        </form>
+        <div id="filter-results">
+            <!-- Products will load here -->
+        </div>
+    </div>
+    
+    <script>
+    jQuery(document).ready(function($){
+        $("#product-filter-form").on("submit", function(e){
+            e.preventDefault();
+            var data = $(this).serialize();
+            $.ajax({
+                url: "<?php echo admin_url('admin-ajax.php'); ?>",
+                type: "POST",
+                data: {
+                    action: "shopinzed_filter_products",
+                    filters: data
+                },
+                success: function(response){
+                    $("#filter-results").html(response);
+                }
+            });
+        });
+    });
+    </script>
+    
+    <?php
+    return ob_get_clean();
+}
+add_shortcode("custom_product_filter", "shopinzed_product_filter_section");
+
+// Handle AJAX
+function shopinzed_filter_products() {
+    parse_str($_POST['filters'], $filters);
+
+    $tax_query = [];
+    if (!empty($filters['appliance'])) {
+        $tax_query[] = [
+            'taxonomy' => 'product_cat',
+            'field'    => 'slug',
+            'terms'    => $filters['appliance'],
+        ];
+    }
+
+    $args = [
+        'post_type' => 'product',
+        'posts_per_page' => 6,
+        'tax_query' => $tax_query
+    ];
+
+    $query = new WP_Query($args);
+
+    if ($query->have_posts()) {
+        echo '<div class="products-grid">';
+        while ($query->have_posts()) {
+            $query->the_post();
+            wc_get_template_part('content', 'product');
+        }
+        echo '</div>';
+    } else {
+        echo '<p>No products found.</p>';
+    }
+    wp_die();
+}
+add_action("wp_ajax_shopinzed_filter_products", "shopinzed_filter_products");
+add_action("wp_ajax_nopriv_shopinzed_filter_products", "shopinzed_filter_products");
+
+
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;

@@ -647,3 +647,126 @@ Stack trace:
 [30-Sep-2025 10:44:02 UTC]   Automatic theme updates starting...
 [30-Sep-2025 10:44:02 UTC]   Automatic theme updates complete.
 [30-Sep-2025 10:44:02 UTC] Automatic updates complete.
+[30-Sep-2025 20:22:41 UTC] Automatic updates starting...
+[30-Sep-2025 20:22:41 UTC]   Automatic plugin updates starting...
+[30-Sep-2025 20:22:41 UTC]   Automatic plugin updates complete.
+[30-Sep-2025 20:22:41 UTC]   Automatic theme updates starting...
+[30-Sep-2025 20:22:41 UTC]   Automatic theme updates complete.
+[30-Sep-2025 20:22:41 UTC] Automatic updates complete.
+[01-Oct-2025 01:09:00 UTC] Automatic updates starting...
+[01-Oct-2025 01:09:02 UTC]   Automatic plugin updates starting...
+[01-Oct-2025 01:09:02 UTC]   Automatic plugin updates complete.
+[01-Oct-2025 01:09:02 UTC]   Automatic theme updates starting...
+[01-Oct-2025 01:09:02 UTC]   Automatic theme updates complete.
+[01-Oct-2025 01:09:02 UTC] Automatic updates complete.
+[01-Oct-2025 13:34:39 UTC] PHP Deprecated:  Automatic conversion of false to array is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\elementor\includes\api.php on line 176
+[01-Oct-2025 13:34:44 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[01-Oct-2025 13:34:44 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[01-Oct-2025 13:34:44 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\functions.php on line 6121
+[01-Oct-2025 19:37:39 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 819
+[01-Oct-2025 19:37:39 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 821
+[01-Oct-2025 19:37:39 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 823
+[01-Oct-2025 19:37:39 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:37:39 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:37:39 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 855
+[01-Oct-2025 19:37:39 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 868
+[01-Oct-2025 19:37:39 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 879
+[01-Oct-2025 19:38:33 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 819
+[01-Oct-2025 19:38:33 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 821
+[01-Oct-2025 19:38:33 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 823
+[01-Oct-2025 19:38:33 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:38:33 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:38:33 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 855
+[01-Oct-2025 19:38:33 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 868
+[01-Oct-2025 19:38:33 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 879
+[01-Oct-2025 19:38:34 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 819
+[01-Oct-2025 19:38:34 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 821
+[01-Oct-2025 19:38:34 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 823
+[01-Oct-2025 19:38:34 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:38:34 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:38:34 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 855
+[01-Oct-2025 19:38:34 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 868
+[01-Oct-2025 19:38:34 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 879
+[01-Oct-2025 19:38:45 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 819
+[01-Oct-2025 19:38:45 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 821
+[01-Oct-2025 19:38:45 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 823
+[01-Oct-2025 19:38:45 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:38:45 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:38:45 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 855
+[01-Oct-2025 19:38:45 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 868
+[01-Oct-2025 19:38:45 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 879
+[01-Oct-2025 19:39:00 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 819
+[01-Oct-2025 19:39:00 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 821
+[01-Oct-2025 19:39:00 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 823
+[01-Oct-2025 19:39:00 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:39:00 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:39:00 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 855
+[01-Oct-2025 19:39:00 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 868
+[01-Oct-2025 19:39:00 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 879
+[01-Oct-2025 19:39:14 UTC] PHP Warning:  Undefined variable $option in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woocommerce-ajax-filters\includes\wizard.php on line 1143
+[01-Oct-2025 19:39:14 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 819
+[01-Oct-2025 19:39:14 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 821
+[01-Oct-2025 19:39:14 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 823
+[01-Oct-2025 19:39:14 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:39:14 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:39:14 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 855
+[01-Oct-2025 19:39:14 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 868
+[01-Oct-2025 19:39:14 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 879
+[01-Oct-2025 19:39:15 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 819
+[01-Oct-2025 19:39:15 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 821
+[01-Oct-2025 19:39:15 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 823
+[01-Oct-2025 19:39:15 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:39:15 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 830
+[01-Oct-2025 19:39:15 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 855
+[01-Oct-2025 19:39:15 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 868
+[01-Oct-2025 19:39:15 UTC] PHP Warning:  Attempt to read property "base" on null in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\admin-bar.php on line 879
+[01-Oct-2025 19:41:38 UTC] PHP Warning:  Undefined array key "attribute" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woocommerce-ajax-filters\includes\custom_post.php on line 567
+[01-Oct-2025 19:42:56 UTC] PHP Warning:  Undefined array key "attribute" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woocommerce-ajax-filters\includes\custom_post.php on line 567
+[01-Oct-2025 19:42:57 UTC] PHP Warning:  Undefined array key "attribute" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\plugins\woocommerce-ajax-filters\includes\custom_post.php on line 567
+[01-Oct-2025 20:06:35 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[01-Oct-2025 20:07:17 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[01-Oct-2025 20:07:17 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[01-Oct-2025 20:10:43 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:10:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[01-Oct-2025 20:10:43 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[01-Oct-2025 20:10:48 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:11:11 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:13:13 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:15:14 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:17:14 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:19:15 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:15 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:15 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:25 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:25 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:27 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:27 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:31 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:40 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:40 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:42 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:42 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:44 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:45 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:26:48 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:27:19 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:27:47 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:27:47 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:27:47 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:28:09 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:28:10 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 475
+[01-Oct-2025 20:49:17 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 412
+[01-Oct-2025 20:49:22 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 412
+[01-Oct-2025 20:49:24 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 412
+[01-Oct-2025 20:55:25 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 1125
+[01-Oct-2025 20:55:27 UTC] PHP Parse error:  syntax error, unexpected identifier "add_action", expecting "function" or "const" in C:\Users\User\Local Sites\shopinzed\app\public\wp-content\themes\oceanwp\functions.php on line 1125
+[01-Oct-2025 20:56:42 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[01-Oct-2025 20:56:42 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[01-Oct-2025 21:00:37 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[01-Oct-2025 21:00:37 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[01-Oct-2025 21:01:38 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[01-Oct-2025 21:01:38 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[01-Oct-2025 21:01:41 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[01-Oct-2025 21:01:41 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[01-Oct-2025 21:02:01 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
+[01-Oct-2025 21:02:01 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
