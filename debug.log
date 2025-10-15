@@ -770,3 +770,51 @@ Stack trace:
 [01-Oct-2025 21:01:41 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
 [01-Oct-2025 21:02:01 UTC] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 247
 [01-Oct-2025 21:02:01 UTC] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-block-parser.php on line 324
+[02-Oct-2025 10:28:35 UTC] Automatic updates starting...
+[02-Oct-2025 10:28:36 UTC]   Automatic plugin updates starting...
+[02-Oct-2025 10:28:36 UTC]   Automatic plugin updates complete.
+[02-Oct-2025 10:28:37 UTC]   Automatic theme updates starting...
+[02-Oct-2025 10:28:37 UTC]   Automatic theme updates complete.
+[02-Oct-2025 10:28:37 UTC] Automatic updates complete.
+[02-Oct-2025 10:44:11 UTC] Automatic updates starting...
+[02-Oct-2025 10:44:11 UTC]   Automatic plugin updates starting...
+[02-Oct-2025 10:44:11 UTC]   Automatic plugin updates complete.
+[02-Oct-2025 10:44:11 UTC]   Automatic theme updates starting...
+[02-Oct-2025 10:44:11 UTC]   Automatic theme updates complete.
+[02-Oct-2025 10:44:11 UTC] Automatic updates complete.
+[02-Oct-2025 19:08:59 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wpdb.php on line 1988
+[02-Oct-2025 19:09:05 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wpdb.php on line 1988
+[02-Oct-2025 19:09:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wpdb.php on line 1988
+[03-Oct-2025 11:25:25 UTC] Automatic updates starting...
+[03-Oct-2025 11:25:26 UTC]   Automatic plugin updates starting...
+[03-Oct-2025 11:25:26 UTC]   Automatic plugin updates complete.
+[03-Oct-2025 11:25:27 UTC]   Automatic theme updates starting...
+[03-Oct-2025 11:25:27 UTC]   Automatic theme updates complete.
+[03-Oct-2025 11:25:27 UTC] Automatic updates complete.
+[13-Oct-2025 10:49:37 UTC] Automatic updates starting...
+[13-Oct-2025 10:49:39 UTC]   Automatic plugin updates starting...
+[13-Oct-2025 10:49:39 UTC]   Automatic plugin updates complete.
+[13-Oct-2025 10:49:40 UTC]   Automatic theme updates starting...
+[13-Oct-2025 10:49:40 UTC]   Automatic theme updates complete.
+[13-Oct-2025 10:49:40 UTC] Automatic updates complete.
+[13-Oct-2025 10:49:43 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "disable_woocommerce_auto_update" not found or invalid function name in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(true, Array)
+#1 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\update.php(1089): apply_filters('auto_update_plu...', true, Object(stdClass))
+#2 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3061): wp_is_auto_update_forced_for_item('plugin', true, Object(stdClass))
+#3 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(1796): WP_Site_Health->detect_plugin_theme_auto_update_issues()
+#4 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(194): WP_Site_Health->get_test_plugin_theme_auto_updates()
+#5 C:\Users\User\Local Sites\shopinzed\app\public\wp-admin\includes\class-wp-site-health.php(3222): WP_Site_Health->perform_test(Array)
+#6 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(324): WP_Site_Health->wp_cron_scheduled_check()
+#7 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#9 C:\Users\User\Local Sites\shopinzed\app\public\wp-cron.php(191): do_action_ref_array('wp_site_health_...', Array)
+#10 {main}
+  thrown in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wp-hook.php on line 324
+[14-Oct-2025 08:26:07 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\User\Local Sites\shopinzed\app\public\wp-includes\class-wpdb.php on line 1988
+[14-Oct-2025 08:32:58 UTC] Automatic updates starting...
+[14-Oct-2025 08:32:58 UTC]   Automatic plugin updates starting...
+[14-Oct-2025 08:32:58 UTC]   Automatic plugin updates complete.
+[14-Oct-2025 08:32:58 UTC]   Automatic theme updates starting...
+[14-Oct-2025 08:32:58 UTC]   Automatic theme updates complete.
+[14-Oct-2025 08:32:58 UTC] Automatic updates complete.
